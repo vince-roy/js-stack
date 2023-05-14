@@ -65,6 +65,7 @@ const CreatePostForm: React.FC = () => {
           {error.data.zodError.fieldErrors.content}
         </span>
       )}
+      <h1>heyyy</h1>
       <button
         className="rounded bg-pink-400 p-2 font-bold"
         onClick={() => {
